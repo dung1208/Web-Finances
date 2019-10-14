@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .screen-4{
+      width: 100vw;
+      height: 941px;
+      padding-top: 100px;
+      display: flex;
+      justify-content: center;
+  }
+  .left-screen-4{
+      margin-right: 90px;
+      padding: 35px 15px 0px;
+
+  }
+  .img-right-screen-4{
+      margin-left: 20px;
+  }
+.title-screen-4{
+    margin-bottom: 70px;
+}
+.title-screen-4>h2:first-child{
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: rgb(64, 62, 87);
+  
+}
+.title-screen-4>h2:last-child{
+    font-size: 40px;
+    font-family: 'Philosopher';
+    color: rgb(128, 124, 174);
+    font-style: italic;
+}
+
+.list-element-left-screen-4{
+    width: 382px;
+    padding: 0px 15px;
+}
+.element-left-screen-4{
+    display: flex;
+    height: 95px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+    transition: 0.3s ease-in-out;
+}
+.element-left-screen-4:hover{
+    padding-left: 15px;
+}
+.text-element-screen-4{
+    border-bottom: 2px solid rgb(244, 244, 244);
+    padding-bottom: 20px;
+    height: 100px;
+}
+.text-element-screen-4.last-text-element-screen-4{
+    border-bottom: none;
+}
+.text-element-screen-4>h3{
+    font-size: 20px;
+    margin-bottom: 7px;
+    color: #3F3D56;
+}
+.text-element-screen-4>p{
+    font-size: 15px;
+    color: #898989;
+    line-height: 25px;
+}
+.icon-element-screen-4{
+    margin-right: 20px;
+}
