@@ -1,0 +1,80 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ul {
+    list-style: none;
+}
+ .screen-1 {
+     width: 100%;
+     height: 100vh;
+     background-image: url(../img/background1.jpg);
+     background-size: cover;
+ }
+.header_screen-1 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img_logo {
+    cursor: pointer;
+    margin-left: 30px;
+    padding: 50px;
+    width: 30vw;
+
+}
+.menu-list {
+    display: flex;
+    margin-right: 4vw;
+}
+.menu-list>li {
+    padding: 0px 18px;
+    cursor: pointer;
+    a{
+        font-weight: 700;
+        text-decoration: none;
+        color: white;
+        font-family: "Roboto";
+        font-size: 15px;
+    }
+    .icon-search-menu{
+        color: white;
+        padding-top: 5px;
+        margin-left: 12px;
+    }
+
+}
+.menu-list>li:hover a{
+    color: rgb(238, 44, 53);
+    transition: 0.5s ease;
+}
+.slogan {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+
+    h2{
+        font-size: 66px;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        font-family: "Roboto";
+    }
+    .solgan-above{
+        margin-bottom: -12px;
+    }
+    span{
+        em{
+                color: #ff414a;
+                font-family: 'Philosopher', sans-serif;
+                font-weight: 700;
+                font-style: italic;
+         
+        }
+    }
+    
+}

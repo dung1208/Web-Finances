@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.screen-3{
+    background-image: url('http://jevelin.shufflehound.com/finances/wp-content/uploads/sites/26/2019/03/Group-19-copy.png?id=570');
+    background-color: rgb(243, 243, 247);
+    background-repeat: no-repeat;
+    height: 684px;
+    display: flex;
+    flex-direction: column;
+}
+.header-screen-3{
+    text-align: center;
+    font-family: 'Roboto';
+    color: #3F3D56;
+    h2{
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    p{
+        font-style: italic;
+        font-size: 16px;
+    }
+}
+.list-element-screen-3{
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+}

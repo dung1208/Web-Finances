@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.background-screen-2{
+  position: relative;
+  width: 100vw;
+  height: 70vh;
+  background-color: rgb(243, 243, 247);
+  margin-top: -23%;
+  z-index: -1;
+}
+.screen-2 {
+    margin-top: -19% !important;
+    padding-top: 80px !important;
+    padding-bottom: 95px !important;
+    background-color: white;
+    width: 88vw;
+    height: 85vh;
+    margin-left: 6vw;
+    display: flex;
+    box-shadow: 0 15px 25px -7px rgba(0,0,0,.09), 0 -12px 10px -10px rgba(0,0,0,.04);
+}
+.element-first-screen-2 {
+  width: 33.33%;
+  padding: 35px 55px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+  color: rgb(63, 61, 86);
+  h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  p{
+    font-size: 16px;
+    color: #898989;
+    line-height: 25px;
+    font-weight: 300;
+    margin-bottom: 45px;
+  }
+  .btn-contact-screen-2{
+    font-size: 14px;
+    width: 138px;
+    height: 44px;
+    background-color: #ff414a;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 35px;
+    margin-left: -50%;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    
+  }
+}
+.btn-contact-screen-2:hover{
+  background-color: rgb(238, 44, 53);
+
+}

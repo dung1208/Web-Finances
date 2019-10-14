@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .element-screen-3:hover{
+    box-shadow: 0 15px 25px -7px rgba(0,0,0,.09), 0 -12px 10px -10px rgba(0,0,0,.04);
+  }
+.element-screen-3{
+    width: 376px;
+    height: 432px;
+    background: white;
+    padding: 35px 0px 0px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-family: 'Roboto';
+    .text-element-screen-3{
+        padding: 0px 33px 0px;
+        h2{
+            font-size: 28px;
+            color: #3F3D56;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 16px;
+            color: #898989;
+            margin-bottom: 15px;
+            line-height: 25px;
+            padding-right: 70px;
+        }
+    }
+    .box-img-element-screen-3{
+        position: relative;
+        top: 32px;
+        .img-element-screen-3{
+            position: absolute;
+            right: 0;
+            }
+        }
+}
