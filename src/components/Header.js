@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import '../scss/Header.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 class Header extends Component {
   render () {
       return (

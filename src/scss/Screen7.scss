@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .screen-7{
+    margin-left: calc(100vw/2 - 1200px/2 - 7.5px);
+    margin-right: calc(100vw/2 - 1200px/2 - 7.5px);
+  }
+  .box-logo-screen-7{
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-around;
+      height: 71px;
+      align-items: center;
+
+      .logo-screen-7{
+        width: 240px;
+        padding: 0px 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  }
+  .space-divider{
+      height: 70px;
+      border-bottom: 2px solid #f7f6fd;
+
+  }
+  .contact-screen-7{
+      padding: 70px 0px 75px;
+      display: flex;
+      justify-content: space-between;
+      .text-screen7{
+          display: flex;
+          flex-direction: column;
+          font-size: 43px;
+          font-family: 'Roboto';
+          color: #3f3d56;
+          font-weight: 700;
+          em{
+              font-family: 'Philosopher';
+              color: #ff414a;
+          }
+      }
+      .btn-screen-7{
+        display: flex;
+        align-items: center;
+        button{
+            font-size: 14px;
+            width: 138px;
+            height: 44px;
+            background-color: #ff414a;
+            outline: none;
+            border: none;
+            color: white;
+            font-weight: bold;
+            border-radius: 35px;
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            font-weight: 700;
+        }
+    }  
+  }
+  .btn-screen-7>button:hover{
+    background-color: rgb(238, 44, 53);
+  }
