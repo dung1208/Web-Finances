@@ -19,7 +19,7 @@ class Screen2 extends Component {
                         <ElementScreen2 
                             image = "https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/26/2019/07/benifits-2.png"
                             title = "Optimal vision"
-                            text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras seddui tempus, vestibulum tellus a, gravida orci"
+                            text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamu cras sed dui tempus, vestibulum tellus a, gravida orci"
                         />
                     </div>
                     <div className="background-screen-2"></div>

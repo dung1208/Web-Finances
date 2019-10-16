@@ -22,7 +22,7 @@ ul {
 }
 .img_logo {
     cursor: pointer;
-    margin-left: 30px;
+    margin-left: 27px;
     padding: 50px;
     width: 30vw;
 
@@ -45,6 +45,7 @@ ul {
         color: white;
         padding-top: 5px;
         margin-left: 12px;
+        transform: scale(1.5);
     }
 
 }
@@ -53,7 +54,7 @@ ul {
     transition: 0.5s ease;
 }
 .slogan {
-    margin-top: 10px;
+    margin-top: 18px;
     color: white;
     text-align: center;
 

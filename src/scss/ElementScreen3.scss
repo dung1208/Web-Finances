@@ -7,19 +7,22 @@
     box-shadow: 0 15px 25px -7px rgba(0,0,0,.09), 0 -12px 10px -10px rgba(0,0,0,.04);
   }
 .element-screen-3{
+    position: relative;
     width: 376px;
     height: 432px;
     background: white;
-    padding: 35px 0px 0px;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 18px;
+    margin-right: 18px;
     font-family: 'Roboto';
     .text-element-screen-3{
-        padding: 0px 33px 0px;
+        padding: 35px 33px 0px;
+        img{
+            margin-top: 15px;
+        }
         h2{
             font-size: 28px;
             color: #3F3D56;
-            margin-top: 50px;
+            margin-top: 42px;
             margin-bottom: 20px;
         }
         p{
@@ -30,12 +33,10 @@
             padding-right: 70px;
         }
     }
-    .box-img-element-screen-3{
-        position: relative;
-        top: 32px;
-        .img-element-screen-3{
-            position: absolute;
-            right: 0;
-            }
-        }
+
+    .img-element-screen-3{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
 }

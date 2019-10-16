@@ -19,6 +19,7 @@ class Screen4 extends Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris risus sem.</p>
                         </div>
                     </div>
+                    <div className="divider"><div className="divider-line"></div></div>
                     <div className="element-left-screen-4">
                         <div className="icon-element-screen-4">
                             <img alt="protection" src = { require('../img/protection.PNG')} />
@@ -28,6 +29,7 @@ class Screen4 extends Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris risus sem.</p>
                         </div>
                     </div>
+                    <div className="divider"><div className="divider-line"></div></div>
                     <div className="element-left-screen-4">
                         <div className="icon-element-screen-4">
                             <img alt="compliance" src = { require('../img/compliance.PNG')} />
