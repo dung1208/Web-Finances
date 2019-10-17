@@ -23,13 +23,15 @@ class Screen7 extends Component {
             </div>
             <div className="space-divider"></div>
             <div className="contact-screen-7">
-                <div className="text-screen7">
-                    <span><em>Contact us</em> to receive</span>
-                    <span>any further information</span>
-                </div>
-                <div className="btn-screen-7">
-                    <button>Contact us</button>
-                </div>
+                <div className="box-text-screen-7">
+                    <div className="text-screen-7">
+                        <span><em>Contact us</em> to receive</span>
+                        <span>any further information</span>
+                    </div>
+                </div>    
+                    <div className="box-btn-screen-7">
+                        <button className="btn-screen-7">Contact us</button>
+                    </div>
             </div>
         </div>
 

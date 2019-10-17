@@ -6,8 +6,8 @@ class Screen1 extends Component {
   render () {
     return (
         <div className="screen-1">
-            <div className="header_screen-1">
-                <div className="img_logo">
+            <div className="header-screen-1">
+                <div className="img-logo">
                    <a><img src={ require('../img/logo1.png') } alt="logo"/> </a>      
                 </div>
                 <div className="menu">

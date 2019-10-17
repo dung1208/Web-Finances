@@ -9,14 +9,49 @@
       display: flex;
       justify-content: center;
   }
-  .left-screen-4{
-      padding: 35px 15px 0px;
-      width: 510px;
-
-  }
-  .img-right-screen-4{
+.box-left-screen-4{
+    overflow: hidden;
+    width: 510px;
     padding: 35px 15px 0px;
+    }
+.left-screen-4{
+      width: 510px;
   }
+/* animation left*/
+.block-fadeInLeft-screen-4{
+    animation: animation-left-screen-4 0.8s ease-in-out;
+}
+  @keyframes animation-left-screen-4{
+    0%{
+        margin-left: -600px;
+    }
+    100%{
+        margin-left: 0;
+    }
+  }
+
+
+  .box-img-right-screen-4{
+    padding: 35px 15px 0px;
+    width: 721px;
+    overflow: hidden;
+  }
+
+
+ /* animation right */ 
+.img-fadeInRight-screen-4{
+    animation: animation-right-screen-4 0.8s ease-in-out ;
+}
+@keyframes animation-right-screen-4{
+    0%{
+        margin-left: 800px;
+    }
+    100%{
+        margin-left: 0;
+    }
+}
+
+
 .title-screen-4{
     margin-top: 30px;
     margin-bottom: 70px;
