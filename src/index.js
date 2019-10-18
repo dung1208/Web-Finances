@@ -11,7 +11,7 @@ window.onscroll = () => {
     let fadeInLeftScreen4 = document.getElementsByClassName('left-screen-4');
     let fadeInRightScreen7 = document.getElementsByClassName('btn-screen-7');
     let fadeInLeftScreen7 = document.getElementsByClassName('text-screen-7');    
-    console.log(scrollTop)
+
         if(scrollTop > 0){
             header[0].style.visibility = "visible";
             }
@@ -33,3 +33,4 @@ window.onscroll = () => {
 ReactDOM.render(<App />, document.getElementById('root'));
 
 serviceWorker.unregister();
+
