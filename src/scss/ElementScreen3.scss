@@ -3,6 +3,42 @@
     padding: 0;
     box-sizing: border-box;
   }
+/*Ipad ngang(1024 x 768)*/
+@media all and (max-width: 1024px){
+    
+}
+/*Ipad dọc(768 x 1024)*/
+@media all and (max-width: 768px){
+    .element-screen-3{
+        width: 82% !important;
+        margin-left: 9% !important;
+        margin-right: 9% !important;
+        margin-bottom: 40px !important;
+    }
+    .text-element-screen-3{
+        p{
+            padding-right: 350px !important;
+        }
+    }
+}
+/*Tablet nhỏ(420 x 640)*/
+@media all and (max-width: 420px){
+    .text-element-screen-3{
+        p{
+            padding-right: 50px !important;
+        }
+    }
+}
+
+@media all and (max-width: 320px){
+    .element-screen-3{
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 40px !important;
+    }
+}
+
   .element-screen-3:hover{
     box-shadow: 0 15px 25px -7px rgba(0,0,0,.09), 0 -12px 10px -10px rgba(0,0,0,.04);
   }

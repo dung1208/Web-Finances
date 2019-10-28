@@ -3,6 +3,35 @@
     padding: 0;
     box-sizing: border-box;
   }
+/*Ipad ngang(1024 x 768)*/
+@media all and (max-width: 1024px){
+    
+}
+/*Ipad dọc(768 x 1024)*/
+@media all and (max-width: 768px){
+    .screen-3{
+        height: auto !important;
+    }
+    .list-element-screen-3{
+   
+        flex-direction: column !important;
+    }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media all and (max-width: 420px){
+    
+}
+
+@media all and (max-width: 320px){
+    .screen-3{
+        height: auto !important;
+    }
+    .list-element-screen-3{
+   
+        flex-direction: column !important;
+    }
+}
+
 .screen-3{
     background-image: url('http://jevelin.shufflehound.com/finances/wp-content/uploads/sites/26/2019/03/Group-19-copy.png?id=570');
     background-color: rgb(243, 243, 247);

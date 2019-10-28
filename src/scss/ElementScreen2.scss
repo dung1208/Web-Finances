@@ -3,6 +3,34 @@
     padding: 0;
     box-sizing: border-box;
   }
+/*Ipad ngang(1024 x 768)*/
+@media all and (max-width: 1024px){
+    
+}
+/*Ipad dọc(768 x 1024)*/
+@media all and (max-width: 768px){
+  .element-screen-2{
+    width: 100% !important;
+    padding: 0px 150px 50px !important;
+  } 
+}
+@media all and (max-width: 420px){
+  .element-screen-2{
+    width: 100% !important;
+    padding: 0px 20px 30px !important;
+  } 
+}
+
+@media all and (max-width: 320px){
+   .element-screen-2{
+     width: 100% !important;
+     padding-right: 50px !important;
+   } 
+   .logo-screen-7{
+     display: none;
+   }
+}
+
 .element-screen-2 {
     width: 33.33%;
     padding: 35px 60px 0px;

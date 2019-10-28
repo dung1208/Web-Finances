@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import '../scss/Header.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 class Header extends Component {
   render () {
       return (
@@ -18,6 +19,9 @@ class Header extends Component {
                   <li><FontAwesomeIcon className="icon-search" icon={faSearch} /></li>
               </ul>
             </div>
+             <label htmlFor="chk" className='show-menu-header show-menu'>
+                    <FontAwesomeIcon icon={faBars} />
+            </label>
         </div>
           );
     }

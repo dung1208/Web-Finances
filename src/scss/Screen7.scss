@@ -3,9 +3,75 @@
     padding: 0;
     box-sizing: border-box;
   }
+/*Ipad ngang(1024 x 768)*/
+@media all and (max-width: 1024px){
+    .screen-7{
+      padding-left: 70px !important;
+      padding-right: 70px !important;
+    }
+}
+/*Ipad dọc(768 x 1024)*/
+@media all and (max-width: 768px){
+  .contact-screen-7{
+    margin-left: 20px;
+    height: auto !important;
+    flex-direction: column !important;
+    justify-content: center;
+  }
+  .box-text-screen-7{
+    width: 100% !important;
+
+  }
+  .space-divider{
+    width: 100% !important;
+  }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media all and (max-width: 420px){
+    .screen-7{
+      padding-left: 30px !important;
+    }
+    .text-screen-7{
+      font-size: 36px !important;
+    }
+    .box-logo-screen-7{
+      width: 100%;
+      overflow: hidden;
+    }
+}
+
+@media all and (max-width: 320px){
+    .screen-7{
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+     width: 100% !important;
+    }
+  .box-logo-screen-7{
+      width: 100% !important;
+      margin-top: 0 !important;
+      overflow: hidden;
+
+    }
+    .contact-screen-7{
+      margin-left: 20px;
+      height: auto !important;
+      flex-direction: column !important;
+      justify-content: center;
+    }
+    .box-text-screen-7{
+      width: 100% !important;
+
+    }
+    .space-divider{
+      width: 100% !important;
+    }
+
+}
+
   .screen-7{
-    margin-left: calc(100vw/2 - 1200px/2 - 7.5px);
-    margin-right: calc(100vw/2 - 1200px/2 - 7.5px);
+    width: 100%;
+    padding-left: calc(100vw/2 - 1200px/2 - 7.5px);
+    padding-right: calc(100vw/2 - 1200px/2 - 7.5px);
   }
   .box-logo-screen-7{
       margin-top: 30px;
@@ -63,7 +129,7 @@
               color: #ff414a;
           }
       }
-      .box-btn-screen-7{
+ .box-btn-screen-7{
         overflow: hidden;
         width: 138px;
         height: 44px;

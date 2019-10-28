@@ -3,6 +3,75 @@
     padding: 0;
     box-sizing: border-box;
   }
+/*Ipad ngang(1024 x 768)*/
+@media all and (max-width: 1024px){
+    
+}
+/*Ipad dọc(768 x 1024)*/
+@media all and (max-width: 768px){
+    
+}
+/*Tablet nhỏ(480 x 640)*/
+@media all and (max-width: 420px){
+  .screen-5{
+    height: auto !important;
+
+  }
+  .container-screen-5{
+    justify-content: center !important;
+    padding: 0px 50px 0px !important;
+    text-align: center !important;
+    span{
+
+      line-height: 40px !important;
+    }
+  }
+  .email-box-screen-5{
+    form{
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+    }
+  }
+  .email-btn-screen-5{
+    margin-top: 30px !important;
+    position: relative !important;
+    width: 50% !important;
+    right: 0 !important;
+    padding-left: 30px !important;
+  }
+}
+
+@media all and (max-width: 320px){
+    .screen-5{
+      height: auto !important;
+
+    }
+    .container-screen-5{
+      justify-content: center !important;
+      padding: 0px 50px 0px !important;
+      text-align: center !important;
+      span{
+
+        line-height: 40px !important;
+      }
+    }
+    .email-box-screen-5{
+      form{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+      }
+    }
+    .email-btn-screen-5{
+      margin-top: 30px !important;
+      position: relative !important;
+      width: 50% !important;
+      right: 0 !important;
+      padding-left: 30px !important;
+    }
+}
+
   .screen-5{
     position: relative;
     width: 100%;

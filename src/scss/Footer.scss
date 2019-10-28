@@ -3,7 +3,60 @@
     padding: 0;
     box-sizing: border-box;
   }
+/*Ipad ngang(1024 x 768)*/
+@media all and (max-width: 1024px){
+    
+}
+/*Ipad dọc(768 x 1024)*/
+@media all and (max-width: 768px){
+    .footer{
+        padding-top: 150px !important ;
+    }
+    .container-footer{
+        flex-wrap: wrap;
+        height: auto !important;
+    }
+    .block-element-footer{
+        width: 50% !important;
+        height: auto !important;
+        margin-bottom: 30px !important;
+        // margin-left: 10px !important;
+        img{
+            width: 50%;
+        }
+    }
+    .copyright-footer{
+        padding: 0px 40px !important ;
+    }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media all and (max-width: 480px){
+    
+}
+
+@media all and (max-width: 320px){
+    .footer{
+        padding-top: 50px !important ;
+    }
+    .container-footer{
+        flex-wrap: wrap;
+        height: auto !important;
+    }
+    .block-element-footer{
+        width: 50% !important;
+        height: auto !important;
+        margin-bottom: 30px !important;
+        img{
+            width: 100%;
+        }
+    }
+    .copyright-footer{
+        padding: 0px 40px !important ;
+    }
+}
+
   .footer{
+      width: 100%;
     padding-top: 90px ;
     padding-bottom: 40px ;
     background-color: #3f3d56 ;

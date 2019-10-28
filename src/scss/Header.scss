@@ -6,13 +6,41 @@
 ul {
     list-style: none;
 } 
+/*Ipad ngang(1024 x 768)*/
+@media all and (max-width: 1024px){
+    .show-menu-header{
+        display: block !important;
+    }  
+    .nav-list{
+        display: none !important;
+    }
+}
+/*Ipad dọc(768 x 1024)*/
+@media all and (max-width: 768px){
+    .header{
+        width: 100% !important;
+    }
+    .show-menu-header{
+        padding-right: 7% !important;
+    }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media all and (max-width: 480px){
+    
+}
+
+@media all and (max-width: 320px){
+    .show-menu-header{
+        padding-right: 7% !important;
+    }
+}
 
 .header {
     visibility: hidden;
     background-color: white;
     position: fixed;
     height: 80px;
-    width: 100%;
+    width: 100vw;
     box-shadow: 0 15px 25px -7px rgba(0,0,0,.09), 0 -12px 10px -10px rgba(0,0,0,.04);
     display: flex;
     justify-content: space-between;
@@ -50,4 +78,12 @@ ul {
 .nav-list>li:hover a{
     color: rgb(238, 44, 53);
     transition: 0.5s ease;
+}
+
+.show-menu-header{
+    display: none;
+    color: black;
+    transform: scale(2);
+    padding-right: 5%; 
+    cursor: pointer;
 }

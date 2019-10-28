@@ -37,7 +37,7 @@ class Footer extends Component {
                     <ul className="about-footer">
                         <li><FontAwesomeIcon className="icon-about-footer" icon={faMap} />Streed address 15, City</li>
                         <li><FontAwesomeIcon className="icon-about-footer" icon={faPhoneAlt} />+321 97654387</li>
-                        <li><FontAwesomeIcon className="icon-about-footer" icon={faEnvelope} />emailaddress@company.com</li>
+                        <li><FontAwesomeIcon className="icon-about-footer" icon={faEnvelope} />emailaddress</li>
                         <li><FontAwesomeIcon className="icon-about-footer" icon={faClock} />9:00-18:00</li>
                     </ul>
                 </div>

@@ -3,6 +3,59 @@
     padding: 0;
     box-sizing: border-box;
   }
+/*Ipad ngang(1024 x 768)*/
+@media all and (max-width: 1024px){
+    .screen-6{
+        padding-left: 70px !important;
+    }
+}
+/*Ipad dọc(768 x 1024)*/
+@media all and (max-width: 768px){
+    .screen-6{
+        height: auto !important;
+
+    }
+    .list-clients-screen-6{
+        flex-direction: column !important;
+    }
+    .element-client-screen-6{
+        padding: 0px 240px 40px 160px !important;
+        text-align: center !important;
+    }
+    .header-screen-6{
+        margin-left: -70px !important;
+    }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media all and (max-width: 420px){
+    .screen-6{
+        padding-left: 30px !important;
+    }
+    .header-screen-6{
+        margin-left: 0px !important;
+    }
+    .element-client-screen-6{
+        padding: 0px 70px 40px 50px !important;
+        text-align: center !important;
+    }
+}
+
+@media all and (max-width: 320px){
+    
+    .screen-6{
+        height: auto !important;
+        padding-left: 0px !important;
+
+    }
+    .list-clients-screen-6{
+        flex-direction: column !important;
+    }
+    .element-client-screen-6{
+        padding: 0px 20px 40px 20px !important;
+        text-align: center !important;
+    }
+}
+
   .screen-6{
       width: 100%;
       height: 659px;

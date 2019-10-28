@@ -2,16 +2,18 @@ import React,{Component} from 'react';
 import '../scss/Screen1.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 class Screen1 extends Component {
   render () {
     return (
         <div className="screen-1">
             <div className="header-screen-1">
-                <div className="img-logo">
+                <div className="img-logo-screen-1">
                    <a><img src={ require('../img/logo1.png') } alt="logo"/> </a>      
                 </div>
                 <div className="menu">
-                    <ul className="menu-list">
+                    <ul className="menu-list" >
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">News</a></li>
@@ -19,6 +21,9 @@ class Screen1 extends Component {
                         <li><FontAwesomeIcon className="icon-search-menu" icon={faSearch} /></li>
                     </ul>
                 </div>
+                <label htmlFor="chk" className='show-menu-screen-1 show-menu'>
+                    <FontAwesomeIcon icon={faBars} />
+                </label>
             </div>
             <div className="slogan">
                 <h2>

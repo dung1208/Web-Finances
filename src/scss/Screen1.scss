@@ -7,11 +7,112 @@
 ul {
     list-style: none;
 }
+/*Ipad ngang(1024 x 768)*/
+@media all and (max-width: 1024px){
+  .show-menu-screen-1{
+      display: block !important;
+  }  
+  .header-screen-1{
+      height: 80px !important;
+  }
+  .menu-list{
+      visibility: hidden;
+        display: block !important;
+      position: fixed;
+      z-index: 65;
+      width: 100%;
+      top: 80px;
+      right: 0;
+      margin: 0 !important;
+      text-align: start;
+      height: 35vh;
+      background-color: rgb(35, 35, 35);
+      li{
+          height: 20%;
+          margin: 0px 8% !important;
+          border-bottom: 1px solid  rgb(208, 208, 215);
+          display: flex;
+          align-items: center;
+          a{
+              font-size: 14px;
+              font-weight: 300 !important;
+          }
+        
+      }
+      :last-child{
+          border-bottom: none;
+          display: flex;
+          justify-content: space-between;
+      }
+  }
+.menu-list>li:last-child::before{
+    content: "Search here..";
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.slogan{
+    margin-top: 30vh !important;
+}
+
+}
+/*Ipad dọc(768 x 1024)*/
+@media all and (max-width: 768px){
+    .slogan{
+        padding: 0px 90px;
+        margin-top: 25vh !important;
+        h2{
+
+            font-size: 54px !important;
+        }
+    }
+
+}
+/*Tablet nhỏ(480 x 640)*/
+@media all and (max-width: 420px){
+    .slogan{
+        margin-top: 15vh !important;
+        padding: 0px 50px;
+    }
+}
+
+@media all and (max-width: 320px){
+    .header-screen-1{
+        height: 70px !important;
+        width: 100vw !important;
+    }
+    .slogan{
+        margin-top: 10vh !important;
+        h2{
+            font-size: 54px !important;
+            line-height: 55px !important;
+        }
+    }
+    .img-logo-screen-1{
+        padding: 30px !important;
+    }
+}
+
+
+
+.show-menu-screen-1{
+    display: none;
+    color: white;
+    transform: scale(2);
+    margin-right: 10%; 
+    cursor: pointer;
+}
+
+
+
+
  .screen-1 {
      width: 100%;
      height: 100vh;
      background-image: url(../img/background1.jpg);
      background-size: cover;
+     background-position: center;
  }
 .header-screen-1 {
     width: 100%;
@@ -20,9 +121,9 @@ ul {
     justify-content: space-between;
     align-items: center;
 }
-.img-logo {
+.img-logo-screen-1 {
     cursor: pointer;
-    margin-left: 27px;
+    margin-left: 2%;
     padding: 50px;
     width: 30vw;
 
@@ -30,6 +131,7 @@ ul {
 .menu-list {
     display: flex;
     margin-right: 4vw;
+  
 }
 .menu-list>li {
     padding: 0px 18px;

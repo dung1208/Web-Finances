@@ -34,3 +34,26 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 serviceWorker.unregister();
 
+
+let responsiveTopNav = document.getElementsByClassName('show-menu');
+let menuResponsive = document.getElementsByClassName('menu-list')[0];
+for( let i = 0; i < responsiveTopNav.length; i++){
+responsiveTopNav[i].onclick = () => {
+    if(!menuResponsive.style.visibility || menuResponsive.style.visibility === "hidden"){
+        menuResponsive.style.visibility = "visible";
+    }
+    else{
+        menuResponsive.style.visibility = "hidden";
+        }
+    }
+}
+
+// window.onclick = (e) => {
+//     console.log(e.target)
+//     if(e.target === menuResponsive){
+//        menuResponsive.style.visibility = "visible";
+//     }
+//     else{
+//         menuResponsive.style.visibility = "hidden";
+//     } 
+// }

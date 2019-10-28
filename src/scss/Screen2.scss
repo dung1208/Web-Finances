@@ -3,6 +3,78 @@
     padding: 0;
     box-sizing: border-box;
   }
+/*Ipad ngang(1024 x 768)*/
+@media all and (max-width: 1024px){
+  .screen-2 {
+    height: auto !important;
+  }
+  .background-screen-2{
+    height: 30vh !important;
+  }
+}
+/*Ipad dọc(768 x 1024)*/
+@media all and (max-width: 768px){
+  .screen-2{
+    width: 82vw !important;
+    margin-left: 9vw !important;
+    flex-direction: column !important;
+    height: auto !important;
+    padding-bottom: 0 !important;
+  }
+  .element-first-screen-2 {
+    width: 100% !important;
+    padding: 0px 150px 50px !important;
+    h2{
+      font-size: 20px !important;
+    }
+  }
+  .btn-contact-screen-2{
+    margin-left: -30% !important;
+  }
+  .background-screen-2{
+    height: 30vh !important;
+  }
+}
+
+@media all and (max-width: 420px){
+
+  .element-first-screen-2 {
+  width: 100% !important;
+  padding: 0px 20px 30px !important;
+  h2{
+    font-size: 20px !important;
+  }
+}
+.btn-contact-screen-2{
+  margin-left: -30% !important;
+}
+.background-screen-2{
+  height: 30vh !important;
+}
+}
+
+@media all and (max-width: 320px){
+    .screen-2{
+      width: 97vw !important;
+      margin-left: 1.5vw !important;
+      flex-direction: column !important;
+      height: auto !important;
+    }
+    .element-first-screen-2 {
+      width: 100% !important;
+      padding: 0px 50px 20px !important;
+      h2{
+        font-size: 20px !important;
+      }
+    }
+    .btn-contact-screen-2{
+      margin-left: -30% !important;
+    }
+    .background-screen-2{
+      height: 40vh !important;
+    }
+}
+
 .background-screen-2{
   position: relative;
   width: 100%;
@@ -14,7 +86,7 @@
 .screen-2 {
     margin-top: -19% !important;
     padding-top: 80px !important;
-    padding-bottom: 95px !important;
+    padding-bottom: 95px ;
     background-color: white;
     width: 88vw;
     height: 85vh;
