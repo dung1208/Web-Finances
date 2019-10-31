@@ -10,8 +10,7 @@ window.onscroll = () => {
     let fadeInRightScreen4 = document.getElementsByClassName('img-right-screen-4');
     let fadeInLeftScreen4 = document.getElementsByClassName('left-screen-4');
     let fadeInRightScreen7 = document.getElementsByClassName('btn-screen-7');
-    let fadeInLeftScreen7 = document.getElementsByClassName('text-screen-7');    
-
+    let fadeInLeftScreen7 = document.getElementsByClassName('text-screen-7');   
         if(scrollTop > 0){
             header[0].style.visibility = "visible";
             }
@@ -36,17 +35,25 @@ serviceWorker.unregister();
 
 
 let responsiveTopNav = document.getElementsByClassName('show-menu');
-let menuResponsive = document.getElementsByClassName('menu-list')[0];
+let menuResponsive = document.getElementsByClassName('menu-responsive')[0];
 for( let i = 0; i < responsiveTopNav.length; i++){
 responsiveTopNav[i].onclick = () => {
-    if(!menuResponsive.style.visibility || menuResponsive.style.visibility === "hidden"){
+    console.log(menuResponsive.style)
+    if(menuResponsive.style.height === "0vh" && menuResponsive.style.visibility === "hidden"){
+        menuResponsive.style.visibility = "visible";
+        menuResponsive.style.height = "35vh"
+    }
+    else if(menuResponsive.style.height === "" && menuResponsive.style.visibility === ""){       
+        menuResponsive.style.height = "35vh"
         menuResponsive.style.visibility = "visible";
     }
     else{
         menuResponsive.style.visibility = "hidden";
+        menuResponsive.style.height = "0vh"
         }
     }
 }
+
 
 // window.onclick = (e) => {
 //     console.log(e.target)

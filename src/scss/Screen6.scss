@@ -57,8 +57,9 @@
 }
 
   .screen-6{
+      height: auto;
       width: 100%;
-      height: 659px;
+    //   height: 659px;
       padding-left: calc(100vw/2 - 1200px/2 - 7.5px);
       padding-right: calc(100vw/2 - 1200px/2 - 7.5px);
       padding-top: 100px;

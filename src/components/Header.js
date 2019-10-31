@@ -19,9 +19,9 @@ class Header extends Component {
                   <li><FontAwesomeIcon className="icon-search" icon={faSearch} /></li>
               </ul>
             </div>
-             <label htmlFor="chk" className='show-menu-header show-menu'>
+             <div className='show-menu-header show-menu'>
                     <FontAwesomeIcon icon={faBars} />
-            </label>
+            </div>
         </div>
           );
     }

@@ -20,10 +20,17 @@ class Screen1 extends Component {
                         <li><a href="#">Contact</a></li>
                         <li><FontAwesomeIcon className="icon-search-menu" icon={faSearch} /></li>
                     </ul>
+                    <ul className="menu-list menu-responsive" >
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><FontAwesomeIcon className="icon-search-menu-responsive" icon={faSearch} /></li>
+                    </ul>
                 </div>
-                <label htmlFor="chk" className='show-menu-screen-1 show-menu'>
+                <div className='show-menu-screen-1 show-menu'>
                     <FontAwesomeIcon icon={faBars} />
-                </label>
+                </div>
             </div>
             <div className="slogan">
                 <h2>

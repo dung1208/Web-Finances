@@ -9,7 +9,23 @@
 }
 /*Ipad dọc(768 x 1024)*/
 @media all and (max-width: 768px){
-    
+  .email-box-screen-5{
+    form{
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+    }
+  }
+  .email-text-screen-5{
+    width: 70% !important;
+  }
+  .email-btn-screen-5{
+    margin-top: 30px !important;
+    position: relative !important;
+    width: 20% !important;
+    right: 0 !important;
+    padding-left: 30px !important;
+  }
 }
 /*Tablet nhỏ(480 x 640)*/
 @media all and (max-width: 420px){
@@ -26,6 +42,9 @@
       line-height: 40px !important;
     }
   }
+  .email-text-screen-5{
+    width: 100% !important;
+  }
   .email-box-screen-5{
     form{
       display: flex !important;
@@ -36,7 +55,7 @@
   .email-btn-screen-5{
     margin-top: 30px !important;
     position: relative !important;
-    width: 50% !important;
+    width: 40% !important;
     right: 0 !important;
     padding-left: 30px !important;
   }
@@ -79,7 +98,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 478px;
+    // height: 478px;
+    height: auto;
     padding-top: 90px !important;
     padding-bottom: 140px !important;
     

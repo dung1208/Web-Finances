@@ -19,17 +19,23 @@
 }
 /*Tablet nhỏ(480 x 640)*/
 @media all and (max-width: 420px){
-    
+    .header-screen-3{
+        h2{
+            font-size: 26px !important;
+        }
+        p{
+            padding: 0px 50px !important;
+        }
+    }
 }
 
 @media all and (max-width: 320px){
-    .screen-3{
-        height: auto !important;
+    .header-screen-3{
+        p{
+            padding: 0px 30px !important;
+        }
     }
-    .list-element-screen-3{
-   
-        flex-direction: column !important;
-    }
+
 }
 
 .screen-3{

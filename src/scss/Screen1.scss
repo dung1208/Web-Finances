@@ -7,6 +7,7 @@
 ul {
     list-style: none;
 }
+
 /*Ipad ngang(1024 x 768)*/
 @media all and (max-width: 1024px){
   .show-menu-screen-1{
@@ -16,44 +17,15 @@ ul {
       height: 80px !important;
   }
   .menu-list{
-      visibility: hidden;
-        display: block !important;
-      position: fixed;
-      z-index: 65;
-      width: 100%;
-      top: 80px;
-      right: 0;
-      margin: 0 !important;
-      text-align: start;
-      height: 35vh;
-      background-color: rgb(35, 35, 35);
-      li{
-          height: 20%;
-          margin: 0px 8% !important;
-          border-bottom: 1px solid  rgb(208, 208, 215);
-          display: flex;
-          align-items: center;
-          a{
-              font-size: 14px;
-              font-weight: 300 !important;
-          }
-        
-      }
-      :last-child{
-          border-bottom: none;
-          display: flex;
-          justify-content: space-between;
-      }
+      display: none !important;
   }
-.menu-list>li:last-child::before{
-    content: "Search here..";
-    color: white;
-    font-weight: 700;
-    font-size: 22px;
-}
 
 .slogan{
-    margin-top: 30vh !important;
+    margin-top: 35vh !important;
+    h2{
+
+        font-size: 54px !important;
+    }
 }
 
 }
@@ -61,11 +33,8 @@ ul {
 @media all and (max-width: 768px){
     .slogan{
         padding: 0px 90px;
-        margin-top: 25vh !important;
-        h2{
-
-            font-size: 54px !important;
-        }
+        margin-top: 30vh !important;
+        
     }
 
 }
@@ -128,6 +97,52 @@ ul {
     width: 30vw;
 
 }
+
+
+.menu-responsive{
+    transition: 0.3s ease-out;
+  visibility: hidden;
+  display: block !important;
+  position: fixed;
+  z-index: 65;
+  width: 100%;
+  top: 80px;
+  right: 0;
+  margin: 0 !important;
+  text-align: start;
+  height: 35vh;
+  background-color: rgb(35, 35, 35);
+  li{
+      height: 20%;
+      margin: 0px 8% !important;
+      border-bottom: 1px solid  rgba(208, 208, 215,0.08);
+      display: flex;
+      align-items: center;
+      a{
+          font-size: 14px;
+          font-weight: 300 !important;
+      }
+    
+  }
+  :last-child{
+      border-bottom: none;
+      display: flex;
+      justify-content: space-between;
+  }
+}
+.icon-search-menu-responsive{
+    color:rgba(255,255,255,0.6);
+    margin-left: 12px;
+    transform: scale(1.5);
+}
+.menu-responsive>li:last-child::before{
+    content: "Search here..";
+    color: rgba(255,255,255,0.6);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 22px;
+}
+
 .menu-list {
     display: flex;
     margin-right: 4vw;

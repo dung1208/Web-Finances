@@ -29,7 +29,7 @@
         .left-screen-4{
             width: 100% !important;
             .title-screen-4{
-                padding-right: 60px !important;
+                padding-right: 40px !important;
             }
         }
     }
@@ -46,14 +46,7 @@
 }
 
 @media all and (max-width: 320px){
-    .screen-4{
-        flex-direction: column !important;
-        height: auto !important;
-        padding: 50px 0px 50px !important;
-    }
-    .box-left-screen-4{
-        width: 100% !important;
-    }
+    
     .left-screen-4{
         width: 100% !important;
     }
@@ -73,7 +66,8 @@
 
   .screen-4{
       width: 100%;
-      height: 941px;
+    //   height: 941px;
+      height: auto;
       padding: 100px 0px 150px;
       display: flex;
       justify-content: center;
