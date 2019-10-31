@@ -9,7 +9,7 @@ class Screen3 extends Component {
                 <h2>What we can offer</h2> 
                 <p>to increase financial security for your business</p>
             </div>
-            <div className="list-element-screen-3">
+            <div className="list-element-screen-3" >
                 <ElementScreen3
                     title = "Finances"
                     text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris risus sem."

@@ -38,7 +38,6 @@ let responsiveTopNav = document.getElementsByClassName('show-menu');
 let menuResponsive = document.getElementsByClassName('menu-responsive')[0];
 for( let i = 0; i < responsiveTopNav.length; i++){
 responsiveTopNav[i].onclick = () => {
-    console.log(menuResponsive.style)
     if(menuResponsive.style.height === "0vh" && menuResponsive.style.visibility === "hidden"){
         menuResponsive.style.visibility = "visible";
         menuResponsive.style.height = "35vh"
